@@ -1,0 +1,87 @@
+html, body {
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background: #BBC4D1; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.g-testimonial {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 50px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 15px; }
+  .g-testimonial .g-about {
+    width: 45%;
+    background: #576574;
+    color: #fff;
+    padding: 75px 50px;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; }
+    .g-testimonial .g-about h4 {
+      font-weight: 200; }
+    .g-testimonial .g-about p {
+      color: #bbc4d1;
+      font-weight: 200;
+      line-height: 25px;
+      font-weight: 100; }
+    .g-testimonial .g-about .g-content {
+      padding: 30px 0; }
+    .g-testimonial .g-about .g-testimonial-nav {
+      position: absolute;
+      bottom: 50px;
+      left: 50px; }
+      .g-testimonial .g-about .g-testimonial-nav a {
+        color: #fff; }
+        .g-testimonial .g-about .g-testimonial-nav a i {
+          font-size: 30px !important; }
+  .g-testimonial .g-client {
+    width: 55%;
+    padding: 50px 75px 50px 0;
+    border-radius: 0 15px 15px 0;
+    background: #EDF0F4;
+    border: 1px solid rgba(0, 0, 0, 0.1); }
+    .g-testimonial .g-client .g-client-wrap {
+      padding: 50px;
+      background: #fff;
+      border-radius: 0 10px 10px 0; }
+    .g-testimonial .g-client p {
+      color: #8395a7;
+      font-weight: 200; }
+    .g-testimonial .g-client .g-user {
+      display: flex; }
+      .g-testimonial .g-client .g-user .g-user-photo {
+        width: 55px;
+        height: 55px;
+        border-radius: 100px;
+        background-size: cover; }
+      .g-testimonial .g-client .g-user .g-user-details {
+        padding: 0 10px; }
+        .g-testimonial .g-client .g-user .g-user-details h4 {
+          margin: 8px 0; }
+        .g-testimonial .g-client .g-user .g-user-details p {
+          font-size: 12px;
+          margin: 8px 0; }
+    .g-testimonial .g-client .g-content {
+      padding: 20px 0;
+      line-height: 20px; }
+    .g-testimonial .g-client .g-company-logo img {
+      height: 75px; }
