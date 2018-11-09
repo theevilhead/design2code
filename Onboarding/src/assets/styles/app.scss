@@ -1,0 +1,175 @@
+html,body{
+    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background: #BBC4D1;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+// Just for this example start
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 14px;
+    line-height: 18px; 
+}
+
+button{
+    background: #222;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: .7px;
+}
+
+input{
+    padding: 8px 15px;
+    border: 2px solid #d9d9d9;
+    border-radius: 3px;
+}
+
+.field{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+
+    label{
+        span{
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 5px;
+            display: block;
+        }
+    }
+
+    input{
+        width: 100%;
+    }
+    
+}
+
+.field-group{
+
+    &.two{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .field{
+        width: calc(50% - 10px)!important;
+    }
+    
+}
+
+
+// Just for this example end
+
+.g-onboarding{
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    box-shadow: 0 10px 50px 3px rgba(0,0,0,0.1);
+
+    .g-extra{
+        width: 35%;
+        background-image: url('https://images.unsplash.com/photo-1510520434124-5bc7e642b61d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e6b256ab85181b440dbd72eb4b1c297c&auto=format&fit=crop&w=668&q=80');
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        font-family: 'Caveat', cursive;
+        
+        .g-extra-content{
+            position: absolute;
+            font-size: 25px;
+            color: #fff;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+            margin: 0 auto;
+            background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.7));
+        }
+        
+    }  
+
+    .g-content{
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 65%;
+   
+        .g-onboarding-content{
+            width: 65%;
+        }
+        
+        .g-content-wrap{
+            background: #fff;
+            padding: 75px 50px;
+            align-self: flex-end;
+
+            .g-onboarding-content{
+                width: 80%;
+            }
+            
+            
+        }
+        
+    }
+    // Instead of this having a bigger image is better.
+    .mock{
+        position: absolute;
+        width: 100%;
+
+        img{
+            border-radius: 100px;
+            width: 40px;
+
+            &:nth-child(1){
+                position: absolute;
+                right: 150px;
+                top: 35px;
+            }
+            &:nth-child(2){
+                position: absolute;
+                right: 10px;
+                top: 125px;
+            }
+            &:nth-child(3){
+                position: absolute;
+                right: 280px;
+                top: 40px;
+            }
+            &:nth-child(4){
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+            &:nth-child(5){
+                position: absolute;
+                right: 100px;
+                top: 125px;
+            }
+            
+        }
+    }
+    
+}
