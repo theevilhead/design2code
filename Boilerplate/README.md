@@ -1,5 +1,3 @@
-![Testimonial design](screenshot.png)
-
 # Design details
   Designer : https://dribbble.com/vlockn
   Link to the design : https://dribbble.com/shots/5048083-Testimonial-Layout-Freebie  
