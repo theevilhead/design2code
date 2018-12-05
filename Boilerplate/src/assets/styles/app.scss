@@ -1,0 +1,77 @@
+html,body{
+    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background: #BBC4D1;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+// Just for this example start
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 14px;
+    line-height: 18px; 
+}
+
+button{
+    background: #222;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: .7px;
+}
+
+input{
+    padding: 8px 15px;
+    border: 2px solid #d9d9d9;
+    border-radius: 3px;
+}
+
+.field{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+
+    label{
+        span{
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 5px;
+            display: block;
+        }
+    }
+
+    input{
+        width: 100%;
+    }
+    
+}
+
+.field-group{
+
+    &.two{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .field{
+        width: calc(50% - 10px)!important;
+    }
+    
+}

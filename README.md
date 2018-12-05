@@ -1,10 +1,7 @@
 ## Design2codes till now
-Testimonials : https://dribbble.com/shots/5048083-Testimonial-Layout-Freebie  
-Onboarding: https://dribbble.com/shots/3610842-Sign-Up-Flow
-
-## Log
-7th of November 2018 : [Testimonial](https://github.com/girishpatil/design2code/tree/master/Testimonials)   
-8th of November 2018 : [Testimonial](https://github.com/girishpatil/design2code/tree/master/Onboarding)
+Testimonials : https://github.com/girishpatil/design2code/tree/master/Testimonials
+Onboarding: https://github.com/girishpatil/design2code/tree/master/Onboarding
+Calendar: https://github.com/girishpatil/design2code/tree/master/Calendar
 
 ## Contribution
 If you would like to improvise/make some changes go ahead and submit a pull request

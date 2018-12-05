@@ -1,0 +1,127 @@
+html,
+body {
+    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
+        Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+        sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+// Just for this example start
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(250, 250, 250, 1);
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+button {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: #333;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+
+// Example specific styling start
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.g-calendar {
+    max-width: 550px;
+    width: 100%;
+    box-shadow: 0px 5px 100px 1px rgba(223, 228, 234, 0.2);
+    padding: 50px 25px;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+
+    .top-bar {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 25px 0px;
+    }
+}
+
+.g-calendar .content-bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(217, 217, 217);
+
+    li {
+        width: 55px;
+        color: rgb(202, 202, 202);
+        text-align: center;
+    }
+}
+
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+    li {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 100px;
+        cursor: pointer;
+
+        &.inactive{
+            color: #f1f1f1;
+        }
+
+        &.active {
+            position: relative;
+            background: rgba(223, 228, 234, 0.4);
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                right: 3px;
+                top: 3px;
+                border-radius: 100px;
+                background: rgb(237, 85, 101);
+            }
+        }
+    }
+}

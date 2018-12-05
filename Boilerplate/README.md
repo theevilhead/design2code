@@ -1,4 +1,4 @@
-![Onboarding design](screenshot.png)
+![Testimonial design](screenshot.png)
 
 # Design details
   Designer : https://dribbble.com/vlockn
