@@ -1,0 +1,261 @@
+<!-- 
+
+    Demo link : 
+    Inspired by design : https://dribbble.com/shots/4961780-Music-Dashboard-Exploration
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/styles/site.css" rel="stylesheet">
+    <title> Music dashboard </title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <ul class="no-ul">
+                <li class="title light medium">  MENU </li>
+                <li class="active"> <a href=""> <i class="tiny material-icons">search</i> Discover </a></li>
+                <li> <a href=""> <i class="tiny material-icons">headset</i> Songs </a></li>
+                <li> <a href=""> <i class="tiny material-icons">person_outline</i> Artists </a></li>
+                <li> <a href=""> <i class="tiny material-icons">apps</i> Genres </a></li>
+                <li> <a href=""> <i class="tiny material-icons">album</i> Albums </a></li>
+                <li class="title light medium"> PLAYLIST </li>
+                <li> <a href=""> <i class="tiny material-icons">favorite_border</i> Favorite </a></li>
+                <li> <a href=""> <i class="tiny material-icons">queue_music</i> Cheer up </a></li>
+                <li> <a href=""> <i class="tiny material-icons">queue_music</i> 80's </a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+
+            <div class="topbar">
+                <div class="search">
+                    <input type="text" placeholder="Find your favorite here">
+                </div>
+                <div class="nav-tools">
+                    <a href=""><i class="material-icons">email</i></a>
+                    <a href=""><i class="material-icons">notifications</i></a>
+                    <a href="" class="profile picture" style="background-image: url('./assets/images/user.jpeg')"></a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content-wrap">
+                    <div class="row flex">
+                        <h2> Featured Albums</h2>
+                        <div class="paginate">
+                            <a href=""> <i class="material-icons">chevron_left</i> </a>
+                            <a href=""> <i class="material-icons">chevron_right</i> </a>
+                        </div>
+                    </div>
+
+                    <div class="albums">
+
+                        <a href="" class="album">
+                            <div class="art">
+                                <img src="./assets/images/album1.jpg">
+                            </div>
+                            <div class="details">
+                                <h5> Divide </h5>
+                                <p> Ed Sheeran </p>
+                            </div>
+                        </a>
+                        <a href="" class="album">
+                            <div class="art">
+                                <img src="./assets/images/album2.jpg">
+                            </div>
+                            <div class="details">
+                                <h5> Divide </h5>
+                                <p> Ed Sheeran </p>
+                            </div>
+                        </a>
+                        <a href="" class="album">
+                            <div class="art">
+                                <img src="./assets/images/album3.jpg">
+                            </div>
+                            <div class="details">
+                                <h5> Divide </h5>
+                                <p> Ed Sheeran </p>
+                            </div>
+                        </a>
+                        <a href="" class="album">
+                            <div class="art">
+                                <img src="./assets/images/album5.jpg">
+                            </div>
+                            <div class="details">
+                                <h5> Divide </h5>
+                                <p> Ed Sheeran </p>
+                            </div>
+                        </a>
+                        <a href="" class="album">
+                            <div class="art">
+                                <img src="./assets/images/album6.jpg">
+                            </div>
+                            <div class="details">
+                                <h5> Divide </h5>
+                                <p> Ed Sheeran </p>
+                            </div>
+                        </a>
+                        <a href="" class="album">
+                            <div class="art">
+                                <img src="./assets/images/album7.jpg">
+                            </div>
+                            <div class="details">
+                                <h5> Divide </h5>
+                                <p> Ed Sheeran </p>
+                            </div>
+                        </a>
+                        <a href="" class="album">
+                            <div class="art">
+                                <img src="./assets/images/album8.jpg">
+                            </div>
+                            <div class="details">
+                                <h5> Divide </h5>
+                                <p> Ed Sheeran </p>
+                            </div>
+                        </a>
+                        <a href="" class="album">
+                            <div class="art">
+                                <img src="./assets/images/album9.jpg">
+                            </div>
+                            <div class="details">
+                                <h5> Divide </h5>
+                                <p> Ed Sheeran </p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="row flex align-top">
+
+                        <div class="w-40">
+
+                            <h4> Recently added </h4>
+                            <ul class="no-ul playlist">
+                                <li class="row flex">
+                                    <i class="tiny material-icons">add</i>
+                                    <div class="details">
+                                        <h5> Hurting </h5>
+                                        <span class="mini-title">
+                                            Alune george
+                                        </span>
+                                    </div>
+                                    <div class="cta">
+                                        <i class="material-icons">favorite_border</i>
+                                        <span> 3.05 </span>
+                                    </div>
+                                </li>
+                                <li class="row flex">
+                                    <i class="tiny material-icons">add</i>
+                                    <div class="details">
+                                        <h5> Darkside </h5>
+                                        <span class="mini-title">
+                                            Alan walker
+                                        </span>
+                                    </div>
+                                    <div class="cta">
+                                        <i class="material-icons">favorite_border</i>
+                                        <span> 3.31 </span>
+                                    </div>
+                                </li>
+                                <li class="row flex">
+                                    <i class="tiny material-icons">add</i>
+                                    <div class="details">
+                                        <h5> Where are you now </h5>
+                                        <span class="mini-title">
+                                            Justin bieber
+                                        </span>
+                                    </div>
+                                    <div class="cta">
+                                        <i class="material-icons">favorite_border</i>
+                                        <span> 4.10 </span>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="w-60" style="padding: 0 25px">
+                            <h4> Popular </h4>
+                            <ul class="no-ul popular">
+                                <li  style="background-image: url('./assets/images/w1.jpg')">
+                                    <div class="details">
+                                        <h5 class="m-0"> Roadtrip songs </h5>
+                                        <p class="mini-title">
+                                            Hit the road with this mix.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li  style="background-image: url('./assets/images/w2.jpg')">
+                                    <div class="details">
+                                        <h5 class="m-0"> Roadtrip songs </h5>
+                                        <p class="mini-title">
+                                            Hit the road with this mix.
+                                        </p>
+                                    </div>
+                                </li>   
+                                <li  style="background-image: url('./assets/images/w3.jpg')">
+                                    <div class="details">
+                                        <h5 class="m-0"> Roadtrip songs </h5>
+                                        <p class="mini-title">
+                                            Hit the road with this mix.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <h4> Upcoming shows </h4>
+                            <ul class="no-ul upcoming ">
+                                <li>
+                                    <img src="./assets/images/album1.jpg">
+                                    <div class="details">
+                                        <h5 class="m-0"> Inkem Inkem kavale </h5>
+                                        <p class="mini-title m-0">
+                                            14 September 2018
+                                        </p>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <img src="./assets/images/album2.jpg">
+                                    <div class="details">
+                                        <h5 class="m-0"> Charlie puth : One </h5>
+                                        <p class="mini-title m-0">
+                                            14 September 2018
+                                        </p>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <img src="./assets/images/album3.jpg">
+                                    <div class="details">
+                                        <h5 class="m-0"> Timberland : Timbe </h5>
+                                        <p class="mini-title m-0">
+                                            14 September 2018
+                                        </p>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <img src="./assets/images/album5.jpg">
+                                    <div class="details">
+                                        <h5 class="m-0"> Timberland : Timbe </h5>
+                                        <p class="mini-title m-0">
+                                            14 September 2018
+                                        </p>
+                                    </div>
+                                </li>                                
+                            </ul>
+
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
