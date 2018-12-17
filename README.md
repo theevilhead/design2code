@@ -3,7 +3,7 @@ Testimonials : https://github.com/girishpatil/design2code/tree/master/Testimonia
 Onboarding: https://github.com/girishpatil/design2code/tree/master/Onboarding  
 Calendar: https://github.com/girishpatil/design2code/tree/master/Calendar  
 Music dashboard : https://github.com/girishpatil/design2code/tree/master/MusicDashboard  
-Split fold : https://github.com/girishpatil/design2code/tree/master/SplitFold
+Split fold : https://github.com/girishpatil/design2code/tree/master/SplitFold  
 Product view: Coming soon  
 
 ## Contribution
