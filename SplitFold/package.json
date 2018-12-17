@@ -1,0 +1,16 @@
+{
+  "name": "Testimonials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglifycss": "^1.0.9"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.0.0"
+  }
+}
