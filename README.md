@@ -9,3 +9,6 @@ Product view: Coming soon
 ## Contribution
 If you would like to improvise/make some changes go ahead and submit a pull request
 Submit designs : Raise an issue by using the `Issue template for design conversion request` template.
+
+## Subscribe to my mailing list here
+http://eepurl.com/gebECv
